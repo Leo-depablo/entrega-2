@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Distancia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculadora de Distancia a la Mezquita</h1>
+
+    <form id="formCoordenadas">
+      <label for="latitud">Latitud:</label>
+      <input type="number" step="any" id="latitud" name="latitud" required />
+
+      <label for="longitud">Longitud:</label>
+      <input type="number" step="any" id="longitud" name="longitud" required />
+
+      <button type="submit">Calcular distancia</button>
+    </form>
+
+    <button id="ayuda">¿No sabes tu latitud o longitud?</button>
+
+    <div id="resultado"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
